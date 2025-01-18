@@ -9,7 +9,7 @@ resource "azurerm_network_interface" "east-VM01-NIC" {
     private_ip_address_allocation = "Dynamic"
    # public_ip_address_id          = azurerm_public_ip.east-vm01-pip.id
   }
-  depends_on = [azurerm_public_ip.east-vm01-pip]
+ 
 }
 
 # resource "azurerm_network_interface" "east-VM02-NIC" {
