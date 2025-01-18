@@ -23,9 +23,7 @@ variable "vnet01_int_sub01_address" {
 
 }
 
-variable "test-vm01-pip-Name" {
-
-}
+#variable "test-vm01-pip-Name" {}
 
 variable "Test-VM01-NIC01-Name" {
 
