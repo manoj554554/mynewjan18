@@ -5,7 +5,7 @@ resource "azurerm_network_interface" "east-VM01-NIC" {
 
   ip_configuration {
     name                          = "testconfiguration1"
-    subnet_id                     = azurerm_subnet.east_vNet01_Inter_sub01.id
+  #  subnet_id                     = azurerm_subnet.east_vNet01_Inter_sub01.id
     private_ip_address_allocation = "Dynamic"
    # public_ip_address_id          = azurerm_public_ip.east-vm01-pip.id
   }
